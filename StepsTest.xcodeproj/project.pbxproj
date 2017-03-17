@@ -9,13 +9,21 @@
 /* Begin PBXBuildFile section */
 		FA0B84221E79BB61003DAC7C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FA0B84211E79BB61003DAC7C /* main.m */; };
 		FA0B84251E79BB61003DAC7C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FA0B84241E79BB61003DAC7C /* AppDelegate.m */; };
-		FA0B84281E79BB61003DAC7C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA0B84271E79BB61003DAC7C /* ViewController.m */; };
-		FA0B842B1E79BB61003DAC7C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA0B84291E79BB61003DAC7C /* Main.storyboard */; };
 		FA0B842E1E79BB61003DAC7C /* StepsTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FA0B842C1E79BB61003DAC7C /* StepsTest.xcdatamodeld */; };
 		FA0B84301E79BB61003DAC7C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA0B842F1E79BB61003DAC7C /* Assets.xcassets */; };
 		FA0B84331E79BB61003DAC7C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA0B84311E79BB61003DAC7C /* LaunchScreen.storyboard */; };
 		FA0B843E1E79BB61003DAC7C /* StepsTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FA0B843D1E79BB61003DAC7C /* StepsTestTests.m */; };
 		FA0B84491E79BB61003DAC7C /* StepsTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FA0B84481E79BB61003DAC7C /* StepsTestUITests.m */; };
+		FA0B84581E7AFBDB003DAC7C /* Util.m in Sources */ = {isa = PBXBuildFile; fileRef = FA0B84571E7AFBDB003DAC7C /* Util.m */; };
+		FA0B845B1E7B0492003DAC7C /* DataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FA0B845A1E7B0492003DAC7C /* DataManager.m */; };
+		FA0B845E1E7B2573003DAC7C /* DayActivityCoreDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FA0B845D1E7B2573003DAC7C /* DayActivityCoreDataModel.m */; };
+		FA0B84631E7B274C003DAC7C /* DayActivityViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FA0B84621E7B274C003DAC7C /* DayActivityViewModel.m */; };
+		FA0B84681E7B28AD003DAC7C /* ActivityViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FA0B84671E7B28AD003DAC7C /* ActivityViewModel.m */; };
+		FA0B846F1E7BDE98003DAC7C /* ActivityTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA0B846E1E7BDE98003DAC7C /* ActivityTableViewController.m */; };
+		FA0B84721E7BE002003DAC7C /* DayActivityTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FA0B84711E7BE002003DAC7C /* DayActivityTableViewCell.m */; };
+		FA0B84751E7BF32A003DAC7C /* ProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = FA0B84741E7BF32A003DAC7C /* ProgressView.m */; };
+		FA0B84781E7C3EB2003DAC7C /* SeparatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = FA0B84771E7C3EB2003DAC7C /* SeparatorView.m */; };
+		FA0B847D1E7C79A0003DAC7C /* UIView+UpperSeparator.m in Sources */ = {isa = PBXBuildFile; fileRef = FA0B847C1E7C79A0003DAC7C /* UIView+UpperSeparator.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,9 +48,6 @@
 		FA0B84211E79BB61003DAC7C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FA0B84231E79BB61003DAC7C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		FA0B84241E79BB61003DAC7C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		FA0B84261E79BB61003DAC7C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		FA0B84271E79BB61003DAC7C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		FA0B842A1E79BB61003DAC7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FA0B842D1E79BB61003DAC7C /* StepsTest.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = StepsTest.xcdatamodel; sourceTree = "<group>"; };
 		FA0B842F1E79BB61003DAC7C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA0B84321E79BB61003DAC7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -53,6 +58,26 @@
 		FA0B84441E79BB61003DAC7C /* StepsTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StepsTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA0B84481E79BB61003DAC7C /* StepsTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StepsTestUITests.m; sourceTree = "<group>"; };
 		FA0B844A1E79BB61003DAC7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA0B84561E7AFBDB003DAC7C /* Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Util.h; sourceTree = "<group>"; };
+		FA0B84571E7AFBDB003DAC7C /* Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Util.m; sourceTree = "<group>"; };
+		FA0B84591E7B0492003DAC7C /* DataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataManager.h; sourceTree = "<group>"; };
+		FA0B845A1E7B0492003DAC7C /* DataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataManager.m; sourceTree = "<group>"; };
+		FA0B845C1E7B2573003DAC7C /* DayActivityCoreDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DayActivityCoreDataModel.h; sourceTree = "<group>"; };
+		FA0B845D1E7B2573003DAC7C /* DayActivityCoreDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DayActivityCoreDataModel.m; sourceTree = "<group>"; };
+		FA0B84611E7B274C003DAC7C /* DayActivityViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DayActivityViewModel.h; sourceTree = "<group>"; };
+		FA0B84621E7B274C003DAC7C /* DayActivityViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DayActivityViewModel.m; sourceTree = "<group>"; };
+		FA0B84661E7B28AD003DAC7C /* ActivityViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActivityViewModel.h; sourceTree = "<group>"; };
+		FA0B84671E7B28AD003DAC7C /* ActivityViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActivityViewModel.m; sourceTree = "<group>"; };
+		FA0B846D1E7BDE98003DAC7C /* ActivityTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActivityTableViewController.h; sourceTree = "<group>"; };
+		FA0B846E1E7BDE98003DAC7C /* ActivityTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActivityTableViewController.m; sourceTree = "<group>"; };
+		FA0B84701E7BE002003DAC7C /* DayActivityTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DayActivityTableViewCell.h; sourceTree = "<group>"; };
+		FA0B84711E7BE002003DAC7C /* DayActivityTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DayActivityTableViewCell.m; sourceTree = "<group>"; };
+		FA0B84731E7BF32A003DAC7C /* ProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProgressView.h; sourceTree = "<group>"; };
+		FA0B84741E7BF32A003DAC7C /* ProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProgressView.m; sourceTree = "<group>"; };
+		FA0B84761E7C3EB2003DAC7C /* SeparatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SeparatorView.h; sourceTree = "<group>"; };
+		FA0B84771E7C3EB2003DAC7C /* SeparatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SeparatorView.m; sourceTree = "<group>"; };
+		FA0B847B1E7C79A0003DAC7C /* UIView+UpperSeparator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+UpperSeparator.h"; sourceTree = "<group>"; };
+		FA0B847C1E7C79A0003DAC7C /* UIView+UpperSeparator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+UpperSeparator.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,9 +130,13 @@
 			children = (
 				FA0B84231E79BB61003DAC7C /* AppDelegate.h */,
 				FA0B84241E79BB61003DAC7C /* AppDelegate.m */,
-				FA0B84261E79BB61003DAC7C /* ViewController.h */,
-				FA0B84271E79BB61003DAC7C /* ViewController.m */,
-				FA0B84291E79BB61003DAC7C /* Main.storyboard */,
+				FA0B84561E7AFBDB003DAC7C /* Util.h */,
+				FA0B84571E7AFBDB003DAC7C /* Util.m */,
+				FA0B84591E7B0492003DAC7C /* DataManager.h */,
+				FA0B845A1E7B0492003DAC7C /* DataManager.m */,
+				FA0B84601E7B2583003DAC7C /* Models */,
+				FA0B84641E7B2756003DAC7C /* ViewModels */,
+				FA0B846C1E7B45A1003DAC7C /* Views */,
 				FA0B842F1E79BB61003DAC7C /* Assets.xcassets */,
 				FA0B84311E79BB61003DAC7C /* LaunchScreen.storyboard */,
 				FA0B84341E79BB61003DAC7C /* Info.plist */,
@@ -141,6 +170,59 @@
 				FA0B844A1E79BB61003DAC7C /* Info.plist */,
 			);
 			path = StepsTestUITests;
+			sourceTree = "<group>";
+		};
+		FA0B84601E7B2583003DAC7C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FA0B845C1E7B2573003DAC7C /* DayActivityCoreDataModel.h */,
+				FA0B845D1E7B2573003DAC7C /* DayActivityCoreDataModel.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		FA0B84641E7B2756003DAC7C /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				FA0B84661E7B28AD003DAC7C /* ActivityViewModel.h */,
+				FA0B84671E7B28AD003DAC7C /* ActivityViewModel.m */,
+				FA0B84611E7B274C003DAC7C /* DayActivityViewModel.h */,
+				FA0B84621E7B274C003DAC7C /* DayActivityViewModel.m */,
+			);
+			name = ViewModels;
+			sourceTree = "<group>";
+		};
+		FA0B846C1E7B45A1003DAC7C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FA0B846D1E7BDE98003DAC7C /* ActivityTableViewController.h */,
+				FA0B846E1E7BDE98003DAC7C /* ActivityTableViewController.m */,
+				FA0B84701E7BE002003DAC7C /* DayActivityTableViewCell.h */,
+				FA0B84711E7BE002003DAC7C /* DayActivityTableViewCell.m */,
+				FA0B847A1E7C3EC8003DAC7C /* DayActivityCellHelpers */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		FA0B847A1E7C3EC8003DAC7C /* DayActivityCellHelpers */ = {
+			isa = PBXGroup;
+			children = (
+				FA0B84731E7BF32A003DAC7C /* ProgressView.h */,
+				FA0B84741E7BF32A003DAC7C /* ProgressView.m */,
+				FA0B84761E7C3EB2003DAC7C /* SeparatorView.h */,
+				FA0B84771E7C3EB2003DAC7C /* SeparatorView.m */,
+				FA0B847E1E7C79B7003DAC7C /* Extentions */,
+			);
+			name = DayActivityCellHelpers;
+			sourceTree = "<group>";
+		};
+		FA0B847E1E7C79B7003DAC7C /* Extentions */ = {
+			isa = PBXGroup;
+			children = (
+				FA0B847B1E7C79A0003DAC7C /* UIView+UpperSeparator.h */,
+				FA0B847C1E7C79A0003DAC7C /* UIView+UpperSeparator.m */,
+			);
+			name = Extentions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -254,7 +336,6 @@
 			files = (
 				FA0B84331E79BB61003DAC7C /* LaunchScreen.storyboard in Resources */,
 				FA0B84301E79BB61003DAC7C /* Assets.xcassets in Resources */,
-				FA0B842B1E79BB61003DAC7C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,10 +360,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA0B84281E79BB61003DAC7C /* ViewController.m in Sources */,
+				FA0B845E1E7B2573003DAC7C /* DayActivityCoreDataModel.m in Sources */,
+				FA0B84581E7AFBDB003DAC7C /* Util.m in Sources */,
+				FA0B84781E7C3EB2003DAC7C /* SeparatorView.m in Sources */,
+				FA0B845B1E7B0492003DAC7C /* DataManager.m in Sources */,
 				FA0B842E1E79BB61003DAC7C /* StepsTest.xcdatamodeld in Sources */,
+				FA0B84631E7B274C003DAC7C /* DayActivityViewModel.m in Sources */,
 				FA0B84251E79BB61003DAC7C /* AppDelegate.m in Sources */,
 				FA0B84221E79BB61003DAC7C /* main.m in Sources */,
+				FA0B84721E7BE002003DAC7C /* DayActivityTableViewCell.m in Sources */,
+				FA0B846F1E7BDE98003DAC7C /* ActivityTableViewController.m in Sources */,
+				FA0B847D1E7C79A0003DAC7C /* UIView+UpperSeparator.m in Sources */,
+				FA0B84751E7BF32A003DAC7C /* ProgressView.m in Sources */,
+				FA0B84681E7B28AD003DAC7C /* ActivityViewModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -318,14 +408,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		FA0B84291E79BB61003DAC7C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FA0B842A1E79BB61003DAC7C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		FA0B84311E79BB61003DAC7C /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -436,6 +518,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = astrolka.StepsTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -448,6 +531,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = astrolka.StepsTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
